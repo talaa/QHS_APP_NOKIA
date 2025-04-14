@@ -1,0 +1,64 @@
+# Flutter/Dart/Pub related
+**/build/
+**/.dart_tool/
+**/.idea/
+**/.vscode/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/flutter_export_environment.sh
+
+# Android related
+**/android/.gradle/
+**/android/app/build/
+**/local.properties
+
+# iOS/macOS related
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Debug.xcconfig
+**/ios/Flutter/Release.xcconfig
+**/ios/Flutter/AppFrameworkInfo.plist
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner.xcworkspace/
+**/ios/Pods/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+
+# Linux related
+**/linux/flutter/ephemeral/
+
+# Windows related
+**/windows/flutter/ephemeral/
+
+# Web related
+**/web/flutter/ephemeral/
+
+# Symbolicated logs
+**/*.symbols
+
+# Obfuscation
+**/app.*.map.json
+
+# Miscellaneous
+**/*.log
+**/*.lock
+**/*.tmp
+**/*.temp
+**/*.swp
+**/*.swo
+**/*.swn
+**/*.bak
+**/*.old
+**/*.orig
+**/*.rej
+**/*.sublime-workspace
+**/*.sublime-project
+
+# Generated files
+pubspec.lock
+
+# Firebase
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
